@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            PAY ENROLLEMENT FORM
+        </div>
+
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Name</span>
+
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">UserName</span>
+
+                    <input type="text" placeholder="Enter your UserName" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details">Role</span>
+
+                    <input type="text" placeholder="Enter Role" required>
+                </div>
+                <div class="input-box">
+                    <span class="date-details">Date</span>
+                    <br>
+                    <input type="date" required>
+                    <!-- <input type="date" name="mydate" id="date>"  -->
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+
+                    <input type="text" placeholder="Enter Email" required>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Number</span>
+
+                    <input type="text" placeholder="Enter Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Gender</span>
+                    <!-- Male Female -->
+                    Male<input type="radio" name="mygender" id="gender"> Female<input type="radio" name="mygender "
+                        id="gender">
+                </div>
+                <div class="input-box">
+                    <span class="details">Address</span>
+                    <textarea name="mytext" cols="56" rows="5" placeholder="Address"></textarea>
+                </div>
+
+                <div class="input-box">
+                    <button type="submit" class="box" name="submit now"> Submit</button>
+                    <button type="reset" class="box" name="reset now"> Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
